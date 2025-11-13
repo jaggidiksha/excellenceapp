@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar.js';
+import Usestate from './Usestate.js';
+import Useref from './Useref.js';
+import Stopwatch from './Stopwatch.js';
 
 function App() {
+let a='john'
+function on(){
+  alert("hii")
+}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+<Useref/>
+<Stopwatch/>
+{/* <Usestate/> */}
+    {/* <h1 style={{backgroundColor:"pink",color:"blue"}}>react app</h1>
+  <h2>hello</h2>
+  <h3>welcome {a}</h3>
+  <button onClick={on}>click</button>
+  <Navbar/> */}
+</>
   );
 }
 
