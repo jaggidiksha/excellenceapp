@@ -3,6 +3,7 @@ import Navbar from './Navbar.js';
 import Usestate from './Usestate.js';
 import Useref from './Useref.js';
 import Stopwatch from './Stopwatch.js';
+import Useeffect from "./Useeffect.js"
 
 function App() {
 let a='john'
@@ -12,6 +13,7 @@ function on(){
 
   return (
 <>
+<Useeffect/>
 <Useref/>
 <Stopwatch/>
 {/* <Usestate/> */}
