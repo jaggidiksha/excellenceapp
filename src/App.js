@@ -4,6 +4,7 @@ import Usestate from './Usestate.js';
 import Useref from './Useref.js';
 import Stopwatch from './Stopwatch.js';
 import Useeffect from "./Useeffect.js"
+import Usereff from './Usereff.js';
 
 function App() {
 let a='john'
@@ -13,9 +14,10 @@ function on(){
 
   return (
 <>
-<Useeffect/>
+<Usereff/>
+{/* <Useeffect/>
 <Useref/>
-<Stopwatch/>
+<Stopwatch/> */}
 {/* <Usestate/> */}
     {/* <h1 style={{backgroundColor:"pink",color:"blue"}}>react app</h1>
   <h2>hello</h2>
