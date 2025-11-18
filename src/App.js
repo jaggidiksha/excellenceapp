@@ -5,6 +5,7 @@ import Useref from './Useref.js';
 import Stopwatch from './Stopwatch.js';
 import Useeffect from "./Useeffect.js"
 import Usereff from './Usereff.js';
+import Useeffectt from './Useeffectt.js';
 
 function App() {
 let a='john'
@@ -14,7 +15,8 @@ function on(){
 
   return (
 <>
-<Usereff/>
+<Useeffectt/>
+{/* <Usereff/> */}
 {/* <Useeffect/>
 <Useref/>
 <Stopwatch/> */}
